@@ -1,0 +1,16 @@
+{
+	"name" : "alexandre/son-financas",
+	"authors" : [{
+			"name" : "Alexandre",
+			"email" : "alexandrefilho2005@gmail.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"SONFin\\" : "src/"
+		}
+	},
+	"require": {
+		"robmorgan/phinx": "0.7.1"
+	}
+}
